@@ -17,10 +17,10 @@ public class UpgradePurchase : MonoBehaviour
                 for (int level = 5; level >= 1; level--)
                 {
                     int currentCost = level * costPerLevel; 
-                    Debug.Log(level + "... -" + currentCost + " gold");
+                    Debug.Log(level + " -" + currentCost + " gold");
                 }
 
-                Debug.Log("Upgrade complete!");
+                Debug.Log("Улучшение завершено!");
 
                 count = 0;
             }
