@@ -13,7 +13,7 @@ public class PressCounter : MonoBehaviour
             
             if (count == 5)
             {
-                Debug.Log("Пять нажатий достигнуто!");
+                Debug.Log("Five presses reached!");
             }
         }
     }
