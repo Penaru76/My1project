@@ -18,7 +18,7 @@ public class DamageOnThreshold : MonoBehaviour
                     Debug.Log(baseDamage + " x " + level + " = " + damage);
                 }
 
-                Debug.Log(".");
+                Debug.Log("---");
                 count = 0;
             }
         }
